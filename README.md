@@ -14,6 +14,10 @@ docker-compose up --build
 
 After build you need navigate to this [link](http://localhost:8080) and make basic setup for Jenkins.
 
+>Possible creds is: 
+>login: root
+>pwd: Qwerty123
+
 Also you will need to create Node.js config in [Global Tool Configuration](http://localhost:8080/configureTools/).
 
 Then you need setup GitHub [weebhook](https://hookdeck.com/webhooks/platforms/tutorial-github-webhooks#receive-and-inspect-webhooks-and-payload) in your repository.
