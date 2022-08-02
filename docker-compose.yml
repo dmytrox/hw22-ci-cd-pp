@@ -6,8 +6,7 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - jenkins-home:/var/jenkins_home
-      - PetProject:/var/jenkins_home/jobs/PetProject
+      - ./jenkins-home:/var/jenkins_home:rw
 
 volumes:
   jenkins-home:
